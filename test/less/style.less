@@ -1,0 +1,101 @@
+﻿@brdColor1:#87ceeb;
+@brdColor2:#e9dfdf;
+@brdStyle1:dashed;
+@brdStyle2:solid;
+@brdWidth:1px;
+@infoColor:silver;
+@textColor:blue;
+@moneyColor:#ff6a00;
+@undoColor:red;
+@submitColor:green;
+@caretColor:black;
+@BgColor:#f5f5f5;
+@paddings:100px;
+@position: absolute;
+@zIndex: 1;
+@top: 30%;
+@decoration:line-through;
+
+.lineParams(){
+   border-bottom: @brdWidth @brdStyle1 @brdColor1;
+}
+
+ p strong {
+    color:@moneyColor;
+}
+
+.glyphicon{
+    color:@caretColor;
+}
+.pull-right b{
+    color:@moneyColor;
+}
+
+.submit{
+    color:@submitColor;
+}
+
+#undo{
+    color:@undoColor;
+}
+
+p span{
+    color:@textColor;
+}
+
+.type{
+    color:@brdColor1;
+}
+
+.decor{
+      .lineParams();
+}
+
+#bonus{
+   background-color:@BgColor;
+   padding:@paddings/10;
+}
+
+#customerInfo{
+    color:@infoColor;
+}
+
+.jpgImg{
+    position:@position;
+    z-index:@zIndex;
+}
+
+.pngImg{
+    position:@position;
+    left:1%;
+    z-index:@zIndex+1;
+}
+
+#topBook1{
+    top:@top;
+}
+
+#topBook2{
+    top:@top+55%; 
+}
+
+.row{
+     padding:@paddings/10;
+}
+
+.line1{
+    border-top: @brdWidth @brdStyle2 @brdColor2;
+}
+
+.line2{
+    border-top: @brdWidth @brdStyle1 @brdColor2;
+}
+
+.bgcolor{
+    background:@BgColor;
+}
+
+em{
+    text-decoration:@decoration;
+    color:@infoColor;
+}

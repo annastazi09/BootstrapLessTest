@@ -1,0 +1,63 @@
+﻿p strong {
+  color: #ff6a00;
+}
+.glyphicon {
+  color: black;
+}
+.pull-right b {
+  color: #ff6a00;
+}
+.submit {
+  color: green;
+}
+#undo {
+  color: red;
+}
+p span {
+  color: blue;
+}
+.type {
+  color: #87ceeb;
+}
+.decor {
+  border-bottom: 1px dashed #87ceeb;
+}
+#bonus {
+  background-color: #f5f5f5;
+  padding: 10px;
+}
+#customerInfo {
+  color: silver;
+}
+.jpgImg {
+  position: absolute;
+  z-index: 1;
+}
+.pngImg {
+  position: absolute;
+  left: 1%;
+  z-index: 2;
+}
+#topBook1 {
+  top: 30%;
+}
+#topBook2 {
+  top: 85%;
+}
+.row {
+  padding: 10px;
+}
+.line1 {
+  border-top: 1px solid #e9dfdf;
+}
+.line2 {
+  border-top: 1px dashed #e9dfdf;
+}
+.bgcolor {
+  background: #f5f5f5;
+}
+em {
+  text-decoration: line-through;
+  color: silver;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,187 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="less/style.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+                <h3>Все заказы</h3>
+            </div>
+            <div class="col-md-2 type">
+                <h3><span class="decor">Текущие</span></h3>
+            </div>
+            <div class="col-md-3 type">
+                <h3><span class="decor">Завершенные</span></h3>
+            </div>
+            <div class="col-md-5 type">
+                <h3><span class="decor">Отмененные</span></h3>
+            </div>
+        </div>
+        <br />
+        <div class="row line1">
+            <div class="col-md-4">
+                <div><b>Дата заказа &darr;</b></div>
+            </div>
+            <div class="col-md-4">
+                <div><b>№ заказа</b></div>
+            </div>
+            <div class="col-md-4">
+                <div><b>Текущий статус</b></div>
+            </div>
+        </div>
+        <div class="row line1 bgcolor">
+            <div class=" col-md-4 ">
+                <div>9 июля 2012</div>
+            </div>
+            <div class=" col-md-4 ">
+                <div>№0570</div>
+            </div>
+            <div class=" col-md-4 ">
+                <div id="undo">
+                    &#10006; Отменен
+                    <span class="glyphicon glyphicon-triangle-right pull-right"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row line1">
+            <div class=" col-md-4 ">
+                <div>3 июля 2012</div>
+            </div>
+            <div class=" col-md-4 ">
+                <div>№ ME0017681</div>
+            </div>
+            <div class=" col-md-4 ">
+                <div>
+                    <img src="img/car.png" /> Отправлен курьерской службой
+                    <span class="glyphicon glyphicon-triangle-bottom pull-right"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class=" col-md-4 ">
+                <div id="customerInfo">
+                    Имя получателя:
+                    <br />
+                    Электронная почта:
+                    <br />
+                    Доставка:
+                    <br />
+                    Оплата:
+                </div>
+            </div>
+            <div class="col-md-8 ">
+                <div>
+                    г. Киев, ул.Саксаганского, 65, кв.11
+                    <br />
+                    +38 050-123-45-67
+                    <br />
+                    Курьером лично в руки  г. Киев, ул.Саксаганского, 65, кв.11
+                    <br />
+                    Наличными при получении
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class=" col-md-4 ">
+                <div><b>Товары в заказе</b></div>
+            </div>
+            <div class=" col-md-4">
+                <div class="pull-right"><strong>Колличество</strong></div>
+            </div>
+            <div class=" col-md-4 ">
+                <div>
+                    <div class="pull-right"><strong>Цена</strong></div>
+                </div>
+            </div>
+        </div>
+        <div class="row line2">
+            <div class="col-md-4">
+                <div>
+                    <img src="img/img1.jpg" class="jpgImg" />
+                    <img src="img/book.png" class="pngImg" id="topBook1" />
+                </div>
+                <div class="col-md-offset-2">
+                    <p><span>Девушка с татуировкой дракона</span> Стиг Ларссон<br/>
+                    <strong> 138 грн.</strong></p>
+                </div>
+                <br /><br />
+                <div>
+                    <img src="img/img2.jpg" class="jpgImg" />
+                    <img src="img/book.png" class="pngImg" id="topBook2" />
+                </div>
+                <div class="col-md-offset-2">
+                    <p>
+                        <span>Девушка которая взрывала воздушные замки</span> Стиг Ларссон
+                        <br />
+                        <em>170 грн.</em>
+                        <br />
+                        <strong> 138 грн.</strong>
+                    </p>                
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class=" col-md-offset-10">
+                    <div>1</div>
+                </div>
+                <br /><br /><br /><br />
+                <div class="col-md-offset-10">
+                    <div>1</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="pull-right"><b> 138 грн.</b></div>
+                <br /><br /><br /><br /><br />
+                <div class="pull-right "><b> 138 грн.</b></div>
+            </div>
+        </div>
+        <div class="row line2">
+            <div class="col-md-12">
+                <br />
+                <div class="pull-right">Доставка:<b> 20 грн.</b></div>
+                <br /><br />
+            </div>
+        </div>
+        <div class="row line2">
+            <div class="col-md-12">
+                <div id="bonus" class="pull-left"><b>+38 бонусов</b> за этот заказ</div>
+                <br/>
+                <div class="pull-right">Сума заказа:<b> 182 грн.</b></div>
+                <br /><br /><br /><br />
+            </div>
+        </div>
+        <div class="row line1 bgcolor">
+            <div class=" col-md-4 ">
+                <div>17 мая 2012</div>
+            </div>
+            <div class=" col-md-4 ">
+                <div>№0570</div>
+            </div>
+            <div class=" col-md-4 ">
+                <div class="submit">
+                    &#10004; Доставлен
+                    <span class="glyphicon glyphicon-triangle-right pull-right"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row line1 bgcolor">
+            <div class=" col-md-4 ">
+                <div>29 февраля 2012</div>
+            </div>
+            <div class=" col-md-4 ">
+                <div>№ ME0017681</div>
+            </div>
+            <div class=" col-md-4 ">
+                <div class="submit">
+                    &#10004; Доставлен
+                    <span class="glyphicon glyphicon-triangle-right pull-right"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
